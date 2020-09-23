@@ -84,7 +84,7 @@
       panels[2].unmatch();
       result.textContent = 'Unmatched...'
     }
-    if (panels[0], panels[1], panels[2].ismatched(panels[0], panels[1], panels[2])) {
+    if (panels[2].ismatched(panels[0], panels[1], panels[2])) {
       result.textContent = 'Matched!!'
     }
   }
